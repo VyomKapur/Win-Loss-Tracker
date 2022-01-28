@@ -1,0 +1,56 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+#main {
+    border-radius: 15%;
+    display: inline-block;
+    width: 38rem;
+    height: 35rem;
+    text-align: center;
+    border: 1px solid black;
+}
+img {
+    border-radius: 15%;
+    margin: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 35rem;
+    display: inline-block;
+}
+#set {
+    display: inline;
+}
+#inp {
+    width: 5rem;
+}
+
+#btns {
+    width: 32rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: inline;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 10rem;
+    border: none;
+    border-radius: 5%;  
+    padding: 0.5rem;
+}
+
+button:nth-of-type(1) {
+    background-color: rgba(48, 206, 82, 0.671);
+}
+button:nth-of-type(2) {
+    background-color: rgba(206, 72, 48, 0.671);
+}
+#content {
+    margin: 0.5rem;
+    display: flex-box;
+    align-items: flex-start;
+}
+h3 {
+    font-size: 2rem;
+    width: 17rem;
+}
